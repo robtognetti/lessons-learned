@@ -1,3 +1,98 @@
 body {
     background-color: rgb(253, 251, 251);
-}
+    font-family: Geneva,Tahoma,Verdana,sans-serif; 
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(0, 15, 100);
+  }
+  
+  li {
+    line-height: 25px;
+  }
+  
+  p {
+    text-align: justify;
+  }
+  
+  section {
+    padding-left: 15px;
+  }
+  
+  table {
+    text-align: center;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 300px;
+  }
+  
+  caption {
+    border: 2px solid;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.952);
+  }
+  
+  th , td {
+    height: 40px;
+    border: 2px solid;
+    padding: 0 10px;
+  }
+  
+  .par {
+    background-color: rgb(211, 211, 211);
+  }
+  
+  .lista {
+    display: inline-block;
+  }
+  
+  .left-side {
+    float: left;
+    width: 49%;
+    height: 200px;
+    padding-right: 13px;
+    border-right: 1px solid;
+  }
+  
+  .right-side {
+    float: right;
+    width: 49%;
+    height: 200px;
+  }
+  
+  #title-table {
+    font-weight: 500;
+    font-size: 25px;
+    color: rgb(255, 0, 0);
+  }
+  
+  #cabecalho {
+    top: 0;
+    position: fixed;
+    border-bottom: 2px solid rgba(0, 38, 255, 0.61);
+    background-color: rgb(0, 128, 111);
+    width: 100%;
+  }
+  
+  #titulo {
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  #my_name {
+    margin-top: 90px;
+  }
+  
+  #minha_foto {
+    border-radius: 10%;
+  }
+  
+  #rodape {
+    padding-left: 20px;
+    width: 100%;
+    position: absolute;
+    top: 1270px;
+  }
